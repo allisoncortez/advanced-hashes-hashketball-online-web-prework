@@ -221,6 +221,8 @@ game_hash.each do |place, team|
 end
 
 def most_points_scored
+  #which player has the most points
+  
   
 end
 
