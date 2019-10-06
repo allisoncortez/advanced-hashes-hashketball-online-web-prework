@@ -222,7 +222,7 @@ end
 
 def most_points_scored
   #which player has the most points
-  most_points = 0
+  most_points = []
   game_hash.each do |place, team|
     team[:players].each do |player|
       if player[:points] > most_points
