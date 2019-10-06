@@ -429,13 +429,6 @@ def team_names
   end
 end
 
-# def team_names # if you wanted to use the each method
-#   new_arr = []
-#   game_hash.each do |place, team|
-#     new_arr << team[:team_name]
-#   end
-#   new_arr
-# end
 
 # def player_numbers(team_name)
 #   #returns arrray of jersey numbers for that team
