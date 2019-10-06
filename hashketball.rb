@@ -380,22 +380,22 @@ def game_hash
   }
 end
 
-def num_points_scored(players_name)
-  #return number of points for player passed in
-  #using each because we're not making new arrays, we just want info
+# def num_points_scored(players_name)
+#   #return number of points for player passed in
+#   #using each because we're not making new arrays, we just want info
   
-  game_hash.each do |place, team|
-    team.each do |attribute, data|
-      if attribute == :players
-        data.each do |player|
-          if player[:player_name] == players_name
-            return player[:points]
-          end  
-        end    
-      end
-    end
-  end
-end
+#   game_hash.each do |place, team|
+#     team.each do |attribute, data|
+#       if attribute == :players
+#         data.each do |player|
+#           if player[:player_name] == players_name
+#             return player[:points]
+#           end  
+#         end    
+#       end
+#     end
+#   end
+# end
 
 
 # def shoe_size(players_name)
