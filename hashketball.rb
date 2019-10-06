@@ -220,6 +220,9 @@ game_hash.each do |place, team|
   rebound_number
 end
 
+def most_points_scored
+  
+end
 
 
 
