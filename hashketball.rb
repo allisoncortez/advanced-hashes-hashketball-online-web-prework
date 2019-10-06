@@ -475,15 +475,15 @@ end
 
 
 
-def big_shoe_rebounds
-  #find the player with the largest shoe size
+# def big_shoe_rebounds
+#   #find the player with the largest shoe size
  
- game_hash.each do |place, team|
-    team[:players].each do |player|
-      binding.pry
-    end
-  end
-end
+# game_hash.each do |place, team|
+#     team[:players].each do |player|
+#       binding.pry
+#     end
+#   end
+# end
 
 
 
