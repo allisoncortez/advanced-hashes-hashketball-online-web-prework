@@ -243,15 +243,14 @@ def winning_team
     team[:players].each do |player|
       player_points = player[:points]
       player_points.reduce(:+)
-      if 
-        most_points_team = team[:team_name]
-      end
+      # if 
+      #   most_points_team = team[:team_name]
+      # end
     end
   end
   most_points_team
 end
   
-end
 
 
 
