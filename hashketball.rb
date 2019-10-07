@@ -238,7 +238,7 @@ end
 def winning_team
   #which team has the most points
   player_points = 0
-  most_points_team = []
+  #most_points_team = []
   game_hash.each do |place, team|
     team[:players].each do |player|
       player_points = player[:points]
