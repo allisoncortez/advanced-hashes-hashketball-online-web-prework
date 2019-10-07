@@ -249,32 +249,21 @@ def winning_team
   end
   most_points_team
 end
-  
 
-
-
-
-
-
-
-
-
-
-
-
-
-# # 1. Unify the data
-# all_player_data = game_hash[:home][:players] + game_hash[:away][:players]
-
-# # 2. Extract the data you want
-# all_shoe_sizes_and_rebounds = all_player_data.map { |_id, player_data| [player_data[:shoe_size], player_data[:rebounds]] }
-
-# # 3. Filter the data
-# max_shoe_size_and_rebounds = all_shoe_sizes_and_rebounds.max_by(&:first)
-
-# # 4. Extract what you want
-# max_shoe_size_and_rebounds[1]
-
+# nums = []
+#   game_hash.each do |place, team|
+#     if team[:team_name] == team_name
+#     team.each do |attributes, data|
+#       if attributes == :players
+#         data.each do |player|
+#           nums << player[:number]
+#         end
+#       end  
+#     end
+#   end  
+# end 
+# nums
+# end
 
 
 
